@@ -35,7 +35,4 @@ function downloadImageByURL(url, filePath) {
     })
     .pipe(fs.createWriteStream(filePath));
 }
-
 getRepoContributors(repoOwner, repoName, downloadImageByURL);
-
-downloadImageByURL("https://avatars2.githubusercontent.com/u/2741?v=3&s=466", "avatars/kvirani.jpg");
