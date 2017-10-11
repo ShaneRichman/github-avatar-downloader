@@ -15,6 +15,8 @@ if (process.env.DB_GITHUB_TOKEN === "") {
   return;
 }
 
+
+
 var request = require('request');
 var fs = require('fs');
 console.log("Welcome to the GitHub Avatar Downloader!");
